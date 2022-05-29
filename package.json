@@ -1,0 +1,13 @@
+{
+  "name": "framework-arduiinothetis",
+  "version": "0.1.0",
+  "description": "Arduino Wiring-based Framework for the Thetis Instrumentation Boards",
+  "keywords": [
+    "framework",
+    "arduino",
+    "Thetis"
+  ],
+  "license": "LGPL-2.1-or-later",
+  "repository": {
+  }
+}
