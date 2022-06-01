@@ -50,5 +50,8 @@ void initVariant(void) {
     pinMode(NEOPIXEL_DATA, OUTPUT);
     pinMode(LOG_EN, INPUT);
     pinMode(GPS_PPS, INPUT);
+
+    // Start I2C bus
+    Wire.begin(SDA, SCL);
 }
 }
