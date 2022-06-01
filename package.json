@@ -1,5 +1,5 @@
 {
-  "name": "framework-arduiinothetis",
+  "name": "framework-arduino-thetis",
   "version": "0.1.0",
   "description": "Arduino Wiring-based Framework for the Thetis Instrumentation Boards",
   "keywords": [
