@@ -209,6 +209,11 @@ File FS::open(const char* path, const char* mode, const bool create)
     return File(_impl->open(path, mode, create));
 }
 
+bool FS::begin()
+{
+    // Do nothing - used to implement compatability with SD card
+}
+
 bool FS::exists(const char* path)
 {
     if (!_impl) {
