@@ -38,8 +38,8 @@
 
 #define DBG_OUTPUT_PORT Serial
 
-const char* ssid = "**********";
-const char* password = "**********";
+const char* ssid = "adafruit";
+const char* password = "ffffffff";
 const char* host = "esp32sd";
 
 WebServer server(80);
@@ -263,6 +263,7 @@ void handleNotFound() {
 void setup(void) {
   DBG_OUTPUT_PORT.begin(115200);
   DBG_OUTPUT_PORT.setDebugOutput(true);
+  // while (!DBG_OUTPUT_PORT.available()); // Wait for Serial connection to open
   DBG_OUTPUT_PORT.print("\n");
   WiFi.mode(WIFI_STA);
   WiFi.begin(ssid, password);
