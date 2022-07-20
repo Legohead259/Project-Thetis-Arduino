@@ -1,24 +1,23 @@
 {
-  "name": "espressif32",
-  "title": "Espressif 32",
-  "description": "Espressif Systems is a privately held fabless semiconductor company. They provide wireless communications and Wi-Fi chips which are widely used in mobile devices and the Internet of Things applications.",
-  "homepage": "https://espressif.com/",
-  "license": "Apache-2.0",
+  "name": "thetis-development",
+  "title": "Thetis Development Platform",
+  "description": "Project Thetis is a design project for a Master's of Science in Ocean Engineering at Florida Institute of Technology",
+  "homepage": "",
+  "license": "MIT",
   "keywords": [
     "dev-platform",
     "Wi-Fi",
-    "Bluetooth",
-    "Xtensa",
-    "RISC-V"
+    "Thetis",
+    "Ocean Engineering"
   ],
   "engines": {
     "platformio": "^6"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/platformio/platform-espressif32.git"
+    "url": "https://github.com/Legohead259/Thetis-Package"
   },
-  "version": "5.0.0",
+  "version": "1.0.0",
   "frameworks": {
     "arduino": {
       "package": "framework-arduinoespressif32",
