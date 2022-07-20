@@ -38,7 +38,7 @@
     "arduino",
     "espidf"
   ],
-  "name": "Thetis Instrumentation Board RevF4",
+  "name": "Thetis RevF4",
   "upload": {
     "arduino": {
 
@@ -52,4 +52,5 @@
     "speed": 460800
   },
   "url": "https://github.com/Legohead259/Thetis-CAD",
+  "vendor": "Braidan Duffy"
 }
