@@ -26,14 +26,7 @@
 #include "esp32-hal-gpio.h"
 #include "pins_arduino.h"
 
-// GPS Instantiation
-#include <MicroNMEA.h>
-#define GPS_PPS_PIN 42
-HardwareSerial& GPS = Serial1;
-char nmeaBuffer[100];
-MicroNMEA nmea(nmeaBuffer, sizeof(nmeaBuffer));
-bool ledState = LOW;
-volatile bool ppsTriggered = false;
+#define DEBUG_SERIAL Serial
 
 extern "C" {
 

@@ -1,6 +1,6 @@
 {
-  "name": "framework-arduino-thetis",
-  "version": "0.1.1",
+  "name": "thetis-package",
+  "version": "1.0.0",
   "description": "Arduino Wiring-based Framework for the Thetis Instrumentation Boards",
   "keywords": [
     "framework",
@@ -9,5 +9,7 @@
   ],
   "license": "LGPL-2.1-or-later",
   "repository": {
+    "type": "git",
+    "url": "https://github.com/Legohead259/Thetis-Package"
   }
 }
